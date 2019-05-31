@@ -1,0 +1,56 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-content: center;
+}
+
+header {
+  background-color: #7a071a;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+header h1 {
+  color: white;
+}
+
+#submit {
+  width: 500px;
+}
+
+#chatbox {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  min-width: 500px;
+  min-height: 500px;
+  background-color: #f1f1f1;
+  position: relative;
+}
+
+#message {
+  height: 100px;
+  width: 495px;
+}
+
+#isTyping {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+#user {
+  width: 500px;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
