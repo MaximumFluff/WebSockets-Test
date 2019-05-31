@@ -20,6 +20,7 @@ message.addEventListener('keypress', () => {
 })
 
 socket.on('chat', data => {
+  isTyping.innerHTML = "";
   output.innerHTML += `<p><strong>${data.user}</strong> (${data.date}): ${data.message}</p>`
 })
 
