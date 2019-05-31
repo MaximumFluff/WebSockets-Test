@@ -7,6 +7,8 @@ const server = app.listen(port, () => {
   console.log("Listening on port", port);
 });
 
+app.use(express.static('public'));
+
 const io = socket(server)
 
 io.on('connection', (socket) => {
